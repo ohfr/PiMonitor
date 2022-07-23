@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "PiMonitor",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,14 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@config-plugins/react-native-webrtc": "^3.0.0",
+    "@react-native-firebase/app": "^15.2.0",
+    "@react-native-firebase/firestore": "^15.2.0",
     "react": "18.0.0",
-    "react-native": "0.69.2"
+    "react-native": "0.69.2",
+    "react-native-video": "^5.2.0",
+    "react-native-web": "^0.18.7",
+    "react-native-webrtc": "^1.100.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
